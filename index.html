@@ -31,17 +31,20 @@
       </div>
     </header>
     <div class="projetcs">
-      <h3>Projects</h3>
+      <h3>Projetos</h3>
       <div class="cards">
-        <div class="a">
-          Medium
-        </div>
+        <a target="_blank" href="https://medium.com/@wilsonmullerleitor">
+          Blog sobre investimentos
+        </a>
+        <a target="_blank" href="https://instagram.com/ecobagscris">
+          Ecobags Site
+        </a>
       </div>
     </div>
     <style>
       * {font-family: 'PT Sans', sans-serif;}
       body {
-        background-color: #394651;
+        background-color: #373739;
         color:white;
         margin-top: 5em;
         display: flex;
@@ -82,6 +85,24 @@
       }
       .projects{
         padding-right: 20%;
+      }
+      .cards {
+        display: flex;
+        column-gap: 5em;
+      }
+      a {
+        color:white;
+        font-weight: bold;
+        border:solid 2px #26FFFF;
+        border-radius: 18px;
+        padding: 2em;
+        cursor:pointer;
+        text-decoration:none;
+      }
+      a:hover{
+        background-color: #26FFFF;
+        color: #373739;
+        transition: 1s;
       }
     </style>
   </body>
